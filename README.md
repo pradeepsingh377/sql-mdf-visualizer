@@ -28,6 +28,8 @@ The output is a vertical heatmap:
 - **Red line** = shrink boundary  
 
 ---
+![MDF Allocation Heatmap](heatmap_BLUE_FINAL.png)
+
 
 ## 📂 Repository Structure
 
