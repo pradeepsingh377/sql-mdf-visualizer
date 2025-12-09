@@ -29,7 +29,14 @@ The output is a vertical heatmap:
 
 ---
 ![MDF Allocation Heatmap](heatmap_BLUE_FINAL.png)
+### Interpretation
+- Top area → mixed allocations  
+- Middle → dense active data  
+- Lower → mostly free  
+- Bottom few blocks → tiny allocations that **block shrink**  
+- Red line → physical stop point where `DBCC SHRINKFILE` must halt  
 
+This visualization makes shrink behavior predictable instead of a black box.  
 
 ## 📂 Repository Structure
 
